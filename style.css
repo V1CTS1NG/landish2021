@@ -1,0 +1,100 @@
+@import url(ArnoPro-BoldItalicSmText.ttf);
+@import url(ArnoPro-BoldItalicDisplay.ttf);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'ArnoPro';
+    font-weight: normal;
+    font-style: italic;
+    background: #293133;
+    color: #fff;
+}
+
+h2{
+    font-family: 'ArnoPro';
+    font-weight: bold;
+    font-style: italic;
+}
+
+.slide3-img{
+    width: 100%;
+    height: 33%;
+    
+}
+
+.container{
+    padding: 30px;
+}
+
+.container h2{
+    font-size: 54px;
+}
+
+.container p{
+    font-size: 30px;
+}
+
+.slide-three .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.slide-three-left .slide3{
+    font-size: 30px;
+}
+
+.slide-three-left .slide3 span{
+    font-weight: bold;
+    color: red;
+}
+
+.slide-three-right{
+    padding: 35px;
+}
+
+.slide-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-four .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.slide-four-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-four form{
+    margin: 0 auto;
+    width: 800px;
+    background: #464451;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.slide-four form input{
+    width: 50%;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 15px 0 15px 0;
+}
+
+.slide-four form input:focus{
+   outline: none;
+}
