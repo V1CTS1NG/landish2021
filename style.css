@@ -11,7 +11,10 @@ body{
     font-family: 'ArnoPro';
     font-weight: normal;
     font-style: italic;
-    background: #293133;
+    background: url(img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
 }
 
